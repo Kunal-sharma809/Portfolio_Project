@@ -25,10 +25,15 @@ nav ul{
     align-items: center;
 }
 
+.hidden{
+    display: block;
+}
+
 .list{
     display: flex;
     gap: 80px;
     align-items: center;
+    display: none;
 }
 
 .list a{
@@ -247,8 +252,14 @@ nav ul{
     }
 }
 
-.flex{
-    display: flex;
-    gap: 15px;
-    cursor: pointer;
+@media screen and (min-width: 1000px){
+    .hidden{
+        display: none;
+    }
+    .list{
+        display: flex;
+        gap: 80px;
+        align-items: center;
+    }
+
 }
