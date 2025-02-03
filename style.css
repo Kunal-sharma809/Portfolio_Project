@@ -150,8 +150,13 @@ nav ul{
 
 .fourth{
     margin: auto;
-    width: 50vw;
+    width: 100%;
     padding: 100px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .container{
@@ -160,6 +165,7 @@ nav ul{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    width: 60vw;
 }
 
 .skill{
